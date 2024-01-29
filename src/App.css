@@ -3,3 +3,9 @@ html, body {
   margin: 0;
   font-family: system-ui, sans-serif;
 }
+
+.item-container{
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
